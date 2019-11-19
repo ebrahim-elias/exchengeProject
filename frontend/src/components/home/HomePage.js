@@ -5,14 +5,12 @@ class HomePage extends Component {
         return (
             <div className="card">
                 <div className="card-body">
-                    <h4 className="card-title">SDA 6 starter template</h4>
-                    <p>This starter template is based on Spring, PostgreSQL, React, React router and Axios. Check the following links for documentation and guides:</p>
+                    <h4 className="card-title">FoodHub</h4>
+                    <p>Welcome too <strong>FoodHub</strong>! Here you will be able to:</p>
                     <ul>
-                        <li><a href="https://spring.io/projects/spring-boot">Spring</a></li>
-                        <li><a href="https://www.postgresql.org">PostgreSQL</a></li>
-                        <li><a href="https://reactjs.org">React</a></li>
-                        <li><a href="https://reacttraining.com/react-router/web/guides/quick-start">React Router</a></li>
-                        <li><a href="https://github.com/axios/axios">Axios</a></li>
+                        <li>Share Food! (recipes, restaurants, experiences...)</li>
+                        <li>Get/Give Feedback through comments</li>
+                        <li>Interact with other users</li>
                     </ul>
                 </div>
             </div>
