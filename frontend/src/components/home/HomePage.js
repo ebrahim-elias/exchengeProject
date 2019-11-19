@@ -6,7 +6,7 @@ class HomePage extends Component {
             <div className="card">
                 <div className="card-body">
                     <h4 className="card-title">FoodHub</h4>
-                    <p>Welcome too FoodHub! Here you will be able to:</p>
+                    <p>Welcome too <strong>FoodHub</strong>! Here you will be able to:</p>
                     <ul>
                         <li>Share Food! (recipes, restaurants, experiences...)</li>
                         <li>Get/Give Feedback through comments</li>
