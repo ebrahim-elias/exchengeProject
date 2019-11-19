@@ -3,6 +3,7 @@ import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
 import Auth from "../../services/Auth";
 
+
 class LoginPage extends Component {
     async login(loginData) {
         const loginSuccess = await Auth.login(loginData);
@@ -24,8 +25,9 @@ class LoginPage extends Component {
                 <div className="container">
                     <div className="row mt-4">
                         <div className="col-md-6 " style={{color: "white"}}>
-                            <h1>Group 5 Forum</h1>
-                            <p>Starter template</p>
+                            <h1>FoodHub/<small>forum</small></h1>
+                            <p></p>
+                            <img src ={"/images/logo.png"} width="200" height="200"/>
                         </div>
 
                         <div className="col-md-6">

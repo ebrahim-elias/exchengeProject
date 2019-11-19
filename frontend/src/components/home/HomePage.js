@@ -8,7 +8,7 @@ class HomePage extends Component {
                     <h4 className="card-title">FoodHub</h4>
                     <p>Welcome too <strong>FoodHub</strong>! Here you will be able to:</p>
                     <ul>
-                        <li>Share Food! (recipes, restaurants, experiences...)</li>
+                        <li>Share Food! <br/> (recipes, restaurants, experiences...)</li>
                         <li>Get/Give Feedback through comments</li>
                         <li>Interact with other users</li>
                     </ul>

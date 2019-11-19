@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar({onLogout}) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src ={"/images/logo.png"} width="100" height="100"/>
             <a className="navbar-brand" href="#">FoodHub</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -29,7 +30,6 @@ function Navbar({onLogout}) {
                             </Link>
                         </li>
                 </ul>
-
                 <button className="btn btn-outline-info my-2 my-sm-0" onClick={onLogout}>Logout</button>
             </div>
         </nav>
