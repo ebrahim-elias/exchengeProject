@@ -26,8 +26,20 @@ class LoginPage extends Component {
                     <div className="row mt-4">
                         <div className="col-md-6 " style={{color: "white"}}>
                             <h1>FoodHub/<small>forum</small></h1>
-                            <p></p>
-                            <img src ={"/images/logo.png"} width="200" height="200"/>
+                            <p><br/></p>
+                    
+                            <p>Welcome too <strong>FoodHub</strong>! Here you will be able to:</p>
+                                <ul>
+                                    <li>Share Food! <br/> (recipes, restaurants, experiences...)</li>
+                                    <li>Get/Give Feedback through comments</li>
+                                    <li>Interact with other users</li>
+                                </ul>
+                                <p><br/></p>
+                                <img src ={"/images/logo.png"} width="300" height="300"/>
+                                <p></p>
+                                
+                            <p>Create an account and start now!</p>    
+
                         </div>
 
                         <div className="col-md-6">
