@@ -1,5 +1,6 @@
 import React from "react";
 import CommentSection from "../comment/CommentSection"
+import CommentForm from "../comment/CommentForm"
 
 function PostCard({post, onDeleteClick,onClick,onSubmit}) {
         const handleSubmit = () => {
@@ -18,15 +19,11 @@ function PostCard({post, onDeleteClick,onClick,onSubmit}) {
 
                 <button className="btn btn-danger" onClick={onDeleteClick}>Delete</button>
                 <button className="btn btn-primary ml-2" onClick={() => setIsCommentDisplayed(true)}>Comment</button>
-                <CommentSection post = {post}></CommentSection>
+            
                 {
                 isCommentDisplayed?
                 <div>
-                <textarea
-                    className="form-control"
-                    value={body}
-                    onChange={e => setBody(e.target.value)} />
-                    <button className="btn btn-primary" onClick={() => handleSubmit()}>Submit</button>
+                    <CommentSection post = {post}></CommentSection>
                 </div>  :<span></span>
                 }
            </div>

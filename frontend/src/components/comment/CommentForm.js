@@ -12,7 +12,7 @@ function CommentForm({onSubmit}) {
     };
 
     return (
-        <div className="card">
+        <div>
             <div className="card-body">
                 <div>
                     <div className="form-group">

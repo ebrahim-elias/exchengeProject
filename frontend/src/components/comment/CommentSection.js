@@ -37,7 +37,7 @@ class CommentSection extends React.Component {
         //const [isCommentDisplayed, setIsCommentDisplayed] = React.useState(false);
         const {comments} = this.state;
         return (
-            <div className="card mt-3">
+            <div>
                 <div className="card-body">
                    <ul>
                        {
