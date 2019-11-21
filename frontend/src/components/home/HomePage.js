@@ -6,12 +6,7 @@ class HomePage extends Component {
         return (
             <div className="card-hp">
                 <div className="card-bodyhp">
-                    <p>Welcome too <strong>FoodHub</strong>! Here you will be able to:</p>
-                    <ul>
-                        <li>Share Food! <br/> (recipes, restaurants, experiences...)</li>
-                        <li>Get/Give Feedback through comments</li>
-                        <li>Interact with other users</li>
-                    </ul>
+                <img src ={"/images/logo_transparent.png"} width="500" height="500"/>
                 </div>
             </div>
         );

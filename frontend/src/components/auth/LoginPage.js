@@ -35,7 +35,7 @@ class LoginPage extends Component {
                                     <li>Interact with other users</li>
                                 </ul>
                                 <p><br/></p>
-                                <img src ={"/images/logo.png"} width="300" height="300"/>
+                                <img src ={"/images/logo_transparent.png"} width="300" height="300"/>
                                 <p></p>
                                 
                             <p>Create an account and start now!</p>    
