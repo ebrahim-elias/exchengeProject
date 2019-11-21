@@ -1,6 +1,6 @@
 import React from "react";
 
-function CommentForm({onSubmit,onDeleteClick}) {
+function CommentForm({onSubmit}) {
     const [body, setBody] = React.useState("");
 
     const handleSubmit = () => {
@@ -19,10 +19,9 @@ function CommentForm({onSubmit,onDeleteClick}) {
                         <textarea
                             className="form-control"
                             value={body}
-                            onChange={e => setBody(e.target.value)} /> : <span> </span>
-                             }
+                            onChange={e => setBody(e.target.value)} />
 
-                            <button className="btn btn-primary" onClick={() => this.handleSubmit()}>Submit</button>
+                            <button className="btn btn-primary" onClick={() => handleSubmit()}>Submit</button>
 
                     </div>
                 </div>

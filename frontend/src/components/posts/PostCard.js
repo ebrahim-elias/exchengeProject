@@ -1,4 +1,5 @@
 import React from "react";
+import CommentSection from "../comment/CommentSection"
 
 function PostCard({post, onDeleteClick,onClick,onSubmit}) {
         const handleSubmit = () => {
@@ -17,6 +18,7 @@ function PostCard({post, onDeleteClick,onClick,onSubmit}) {
 
                 <button className="btn btn-danger" onClick={onDeleteClick}>Delete</button>
                 <button className="btn btn-primary ml-2" onClick={() => setIsCommentDisplayed(true)}>Comment</button>
+                <CommentSection post = {post}></CommentSection>
                 {
                 isCommentDisplayed?
                 <div>
